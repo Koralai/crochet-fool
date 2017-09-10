@@ -1,0 +1,173 @@
+/* Browser styles reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+/* Custom styling */
+
+.contrast-1 {
+    color: salmon;
+}
+
+.contrast-2 {
+    color: #8EAF9D;
+}
+
+.contrast-3 {
+    color: #6B7D7D;
+}
+
+.special-font {
+    font-family: 'Amatic SC', cursive;
+}
+
+a {
+    color: salmon;
+    text-decoration: none;
+}
+
+a:hover {
+    background: hsl(6, 88%, 97%);
+}
+
+.no-hover-effect:hover {
+    background: none;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.title {
+    background: hsl(146, 55%, 83%);
+    border-radius: 0.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 1px 1px 2px hsla(146, 80%, 20%, 0.4);
+    letter-spacing: 2px;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 0.5rem;
+}
+
+.subtitle {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem; 
+    font-weight: 300;
+    line-height: 1.5;   
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h4, h5, p {
+    line-height: 1.85;
+    font-weight: 300;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.subtitle h4 {
+    font-weight: 300;
+    margin-bottom: .75rem;
+    line-height: 1.5;
+}
+
+.divider {
+    width: 75%;
+    height: .17rem;
+    margin: 1rem auto 1rem auto;
+    background: hsla(146, 55%, 83%, 0.55);
+    border-radius: 2px;
+}
+
+.entry {
+    margin-top: 1.65rem;
+    margin-bottom: 1.65rem;
+}
+
+.entry-arrow {
+    margin-top: 1.65rem;
+    margin-bottom: 2rem;
+}
+
+small, small a {
+    font-size: 0.8rem;
+}
+
+
+/* Responsive display */
+
+@media (max-width:382px) {
+    .title h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:768px) {
+    .content {
+        width: 100%;
+    }
+    .subtitle {
+        margin: 0;
+        padding: 0;
+    }
+    h4 {
+        font-size: 1.15rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .divider {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1650px) {
+    .content {
+        width: 60%;
+    }
+}
+
+/* Theme colors
+#bcebd0 (mint)
+#FA8072 (salmon)
+#8EAF9D (mid-green)
+#6B7D7D (gunmental);
+*/
