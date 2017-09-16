@@ -140,6 +140,12 @@ small, small a {
     }
 }
 
+@media (max-width: 402px) {
+    .subtitle br {
+        display: none;
+    }
+}
+
 @media (max-width:768px) {
     .content {
         width: 100%;
